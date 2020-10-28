@@ -1,0 +1,148 @@
+/*!
+* Start Bootstrap - Business Casual v5.0.10 (https://startbootstrap.com/themes/business-casual)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+*/
+
+
+ /*define as margens das seção donate*/
+.page-section-donate {
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+  }
+ /*define as margens das seção donate*/
+
+
+/*define as margens da seção agradecimento*/
+.page-section-thanks {
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+/*define as margens das seções agradecimento*/
+
+
+ /*define uma linha com espaçmaneto de 0.5*/
+.linha05{
+    line-height: 0.5;
+  }
+ /*define uma linha com espaçmaneto de 0.5*/
+
+
+/*O que está escrito no cardo donate*/
+.section-heading {
+text-transform: uppercase;
+}
+.section-heading .section-heading-upper {/*texto acima do principal do card*/
+display: block;
+font-size: 1rem;
+font-weight: 100;
+line-height: 1.6;
+}
+.section-heading .section-heading-lower { /*texto principal do card*/
+display: block;
+font-size: 3rem;
+font-weight: 100;
+line-height: 0.9;
+}
+/*O que está escrito no cardo donate*/
+
+
+
+/*background do card - NO RGBA O ÚLTIMO DIGITO É A QUANTIDADE DE TRANSPARÊNCIA*/
+.bg-faded {
+    background-color: rgba(255, 255, 255, 0.92);
+  } 
+/*background do card - NO RGBA O ÚLTIMO DIGITO É A QUANTIDADE DE TRANSPARÊNCIA*/
+
+
+
+/*cor da navbar antes de rolar*/
+#mainNav{
+background-color:rgb(11,1,54)
+}
+/*cor da navbar antes de rolar*/
+
+
+
+/*tamanho do botão*/
+.btn-xl {
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  } 
+/*tamanho do botão*/
+
+
+
+/*posição das coisas na tela*/
+.intro {
+    position: relative;
+  }
+  
+  @media (min-width: 992px) {
+    .intro .intro-img {
+      width: 75%;
+      float: right;
+    }
+    .intro .intro-text {
+      left: 0;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute;
+    }
+    .intro .intro-text .intro-button {
+      width: 100%;
+      left: 0;
+      position: absolute;
+      bottom: -2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .intro .intro-text {
+      width: 45%;
+    }
+  }
+/*posição das coisas na tela*/
+
+
+
+/*Configurações da seção Agradecimentos*/
+.cta { /*cor do backgroung da seção agradecimento*/
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(11,1,54, 100);
+  }
+  
+  .cta .cta-inner {/*cor do backgroung do texto de agradecimento*/
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.99);
+  }
+  
+  .cta .cta-inner:before {
+    border-radius: 0.5rem;
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    z-index: -1;
+  }
+/*Configurações da seção Agradecimentos*/
+
+
+
+/* Configurações do Botão abaixo do QR*/
+.btn{box-shadow:0 3px 3px 0 rgba(33,37,41,.1)}
+.btn-doar{background-color:#0b0136;border-color:#0b0136}
+.btn-doar:active,
+.btn-doar:focus,
+.btn-doar:hover{background-color:#ca0505;border-color:#ca0505}.
+/* Configurações do Botão abaixo do QR*/

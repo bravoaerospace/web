@@ -1,0 +1,40 @@
+********************* ON LINE *************************
+  <!-- Animações -->
+  <script src="https://kit.fontawesome.com/82af426106.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> <!--animações de entrada wow parte1-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> <!--animações de entrada wow parte2-->
+
+
+
+********************* ARMAZENADOS NO PC *************************
+Na Pasta JAVA JS
+  <!-- Custom scripts for this template -->
+  <script src="js/transparencia-do-navbar.js"></script> (faz a navbar ficar transparente na home)
+  <script src="js/preloader.js"></script> <!-- preloader -->
+
+
+
+Na Pasta CSS
+  <!-- Custom styles for this template -->
+  <link href="css/bravohomepage.css" rel="stylesheet"> (Estilo do template original)
+
+
+
+Na pasta VENDOR (desenvolvedora do bootstrap)
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap-template/css/bootstrap-template.css" rel="stylesheet"> 
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/bootstrap-template/js/bootstrap-template.js"></script> <!--está ligado a cor do navbar ao rolar e ao funcionamento do menu no celular-->
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script> <!--responsável pela rolagem e icones-->
+
+
+JAVA SE ADICONA NO FINAL DO CODIGO / CSS SE ADICIONA NO COMEÇO DO CODIGO.
+O bootstrap tem um componente java e um componente css, cada um deve ser chamado no codigo no seu devido lugar.

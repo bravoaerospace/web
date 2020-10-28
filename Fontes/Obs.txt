@@ -1,0 +1,3 @@
+A fonte Fette não está aqui, ela não serve pro site por que não tem acentos nem cedilha.
+
+A fonte DIN-Light não tem aplicabilidade, ela é muito fina e não aparece direito na tela.

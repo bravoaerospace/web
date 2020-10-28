@@ -1,0 +1,1 @@
+jquery-easing: <!--responsável pela rolagem e icones-->
