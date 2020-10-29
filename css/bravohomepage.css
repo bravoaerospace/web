@@ -2,13 +2,20 @@
 /************************************ SÓ TEM NA HOME *************************************/
 
 .nanosat{
-  background-image: url("../img/backgrounds/mountain.png");
+  background-image: url("../img/backgrounds/nanosat.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: bottom;
+  background-position: center bottom;
   background-size: 100% auto; 
 }
 
+.launch{
+  background-image: url("../img/backgrounds/mountain.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center bottom;
+  background-size: 100% auto; 
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -415,16 +422,10 @@ p {
 }
 /*FIM - Ajuste do Paragrafo*/
 
-/*INICIO - Ajuste da Seção Sem Margens*/
-.secaodesenho{
-  padding: 0px 0px 0px 0px;
-}
-/*FIM - Ajuste da Seção Sem Margens*/
-
 
 /*INICIO - Ajuste da Seção Sem Margens*/
 .secaoapoie{
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 23% 0px; /*O 23% é a distância entre até o background*/
 }
 /*FIM - Ajuste da Seção Sem Margens*/
 
