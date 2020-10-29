@@ -1,6 +1,16 @@
 
 /************************************ SÓ TEM NA HOME *************************************/
 
+.nanosat{
+  background-image: url("../img/backgrounds/nanosat.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+}
+
+
+
 @media only screen and (max-width: 900px) {
 .conheca {
     line-height: 1.6;
@@ -8,24 +18,21 @@
   }
 }
 
-
 .grow:hover
 {
-        -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        transform: scale(1.05);
-        transition:all 0.3s ease;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition:all 0.3s ease;
         
 }
 
-
 .grow2:hover
 {
-        -webkit-transform: scale(1.02);
-        -ms-transform: scale(1.02);
-        transform: scale(1.02);
-        transition:all 0.3s ease;
-        
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  transition:all 0.3s ease;     
 }
 
 /*INICIO - Ajuste do Paragrafo*/

@@ -20,6 +20,12 @@
 }
 /*define as margens das seções agradecimento*/
 
+ /*define uma linha com espaçmaneto de 0.5*/
+ .linha0{
+  line-height: 0px;
+}
+/*define uma linha com espaçmaneto de 0.5*/
+
 
  /*define uma linha com espaçmaneto de 0.5*/
 .linha05{
@@ -66,10 +72,10 @@ background-color:rgb(11,1,54)
 
 /*tamanho do botão*/
 .btn-xl {
-    font-weight: 700;
+    font-weight: normal;
     font-size: 0.8rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem; /*define a distância entre a borda do botão e  texto do botão*/
+    padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
   } 
@@ -90,14 +96,14 @@ background-color:rgb(11,1,54)
     .intro .intro-text {
       left: 0;
       width: 60%;
-      margin-top: 3rem;
+      margin-top: 2rem; /*sobe ou desce a caixa branca do codigo*/
       position: absolute;
     }
     .intro .intro-text .intro-button {
       width: 100%;
       left: 0;
       position: absolute;
-      bottom: -2rem;
+      bottom: -1.6rem;
     }
   }
   
@@ -122,6 +128,10 @@ background-color:rgb(11,1,54)
     padding: 3rem;
     margin: 0.5rem;
     background-color: rgba(255, 255, 255, 0.99);
+    outline: 2px; /*cria uma borda externa ao item*/
+    outline-style: solid;
+    outline-color: rgba(255, 255, 255, 0.30);
+    outline-offset: 15px;
   }
   
   .cta .cta-inner:before {
