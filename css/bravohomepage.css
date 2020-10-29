@@ -2,11 +2,11 @@
 /************************************ SÓ TEM NA HOME *************************************/
 
 .nanosat{
-  background-image: url("../img/backgrounds/nanosat.png");
+  background-image: url("../img/backgrounds/mountain.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  background-size: cover; 
+  background-position: bottom;
+  background-size: 100% auto; 
 }
 
 
@@ -18,29 +18,12 @@
   }
 }
 
-.grow:hover
-{
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  transition:all 0.3s ease;
-        
-}
-
-.grow2:hover
-{
-  -webkit-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  transform: scale(1.02);
-  transition:all 0.3s ease;     
-}
 
 /*INICIO - Ajuste do Paragrafo*/
 .linezero{
   line-height: 0; /*Linha de espaçamento zero*/
 }
 /*FIM - Ajuste do Paragrafo*/
-
 
 .fina{
   font-weight: bold; /*Engordamento da fonte light*/
@@ -432,6 +415,18 @@ p {
 }
 /*FIM - Ajuste do Paragrafo*/
 
+/*INICIO - Ajuste da Seção Sem Margens*/
+.secaodesenho{
+  padding: 0px 0px 0px 0px;
+}
+/*FIM - Ajuste da Seção Sem Margens*/
+
+
+/*INICIO - Ajuste da Seção Sem Margens*/
+.secaoapoie{
+  padding: 100px 0px 0px 0px;
+}
+/*FIM - Ajuste da Seção Sem Margens*/
 
 
 /*INICIO - Ajuste da Seção Sem Margens*/
