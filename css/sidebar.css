@@ -10,6 +10,11 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .nav-item {
+  margin-bottom: -7px !important;
+}
+
  .alfa.active {
   color: #ca0505 !important; /*COR DO ITEM EM EVIDÊNCIA NO MENU*/
 }
@@ -4005,7 +4010,7 @@ input[type=button].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 .nav-tabs .nav-item {
-  margin-bottom: -1px;
+  margin-bottom: -1px !important;
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
