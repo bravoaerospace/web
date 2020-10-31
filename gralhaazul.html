@@ -33,12 +33,13 @@ div.a {text-align: center;}
 
   <!-- Custom styles for this template -->
   <link href="css/bravohomepage.css" rel="stylesheet">
+  <link href="css/hover.css" rel="stylesheet">
 
   <!-- Animações -->
   <script src="https://kit.fontawesome.com/82af426106.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> <!--animações de entrada wow parte1-->
@@ -67,72 +68,162 @@ new WOW().init();
   </div>
 </div>
 
+
 <!--A Q U I   C O M  E  Ç  A   O   S I T E--><!--A Q U I   C O M  E  Ç  A   O   S I T E--><!--A Q U I   C O M  E  Ç  A   O   S I T E-->
 
                
 <!-- INICIO DA BARRA DE NAVEGAÇÃO /// INICIO DA BARRA DE NAVEGAÇÃO /// INICIO DA BARRA DE NAVEGAÇÃO /// INICIO DA BARRA DE NAVEGAÇÃO /// INICIO DA BARRA DE NAVEGAÇÃO -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-<div class="container">
+  <div class="container">
 
-  <!--Logo da Equipe no canto esquerdo da barra-->
-  <a class="navbar-brand js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/"><img class="img-fluid" src="img/icones/sobe.webp" width="90px" alt=""></a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/icones/home.webp" width="90px" alt=""></a>
 
-  <!--Botão menu que aparece no celular-->
+    <!--Botão menu que aparece no celular-->
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-  <font face="ddin" size="2">Menu</font>
-  <i class="fas fa-bars"></i>
-  </button>
+    <font face="ddin" size="2">Menu</font>
+    <i class="fas fa-bars"></i>
+    </button>
 
-  <!--inicio dos itens de navegação-->
-  <div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav text-uppercase ml-auto">
-      
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#quemsomos"><font face="ddin" size="2">QUEM SOMOS</font></a>
-      </li>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#equipe"><font face="ddin" size="2">A EQUIPE</font></a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://bravoaerospace.github.io/web/"><font face="ddin" size="2">HOME</font></a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#nossahistoria"><font face="ddin" size="2">HISTÓRIA</font></a>
-      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDivisoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <font face="ddin" size="2" color=white>A EQUIPE</font>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownDivisoes">
+            <a class="dropdown-item js-scroll-trigger" href="dcp.html"><font face="ddin" size="2">Propulsão</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="dae.html"><font face="ddin" size="2">Aeroestruturas</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="dec.html"><font face="ddin" size="2">Eletrônica</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="dns.html"><font face="ddin" size="2">Nano Satélites</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="conselho.html"><font face="ddin" size="2">Estado-Maior</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="ped.html"><font face="ddin" size="2">Departamento de Projeto</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="operacoes.html"><font face="ddin" size="2">Departamento de Operações</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="secretaria.html"><font face="ddin" size="2">Secretaria, Marketing e Logística</font></a>
+          </div>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#projetos"><font face="ddin" size="2">PROJETOS</font></a>
-      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <font face="ddin" size="2" color=white>ABOUT</font>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownAbout">
+            <a class="dropdown-item js-scroll-trigger" href="dcp.html"><font face="ddin" size="2">Sobre Nós</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="dcp.html"><font face="ddin" size="2">A História da Bravo</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="dcp.html"><font face="ddin" size="2">Turma 01 / 2016-2018</font></a>
+          </div>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProjetos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <font face="ddin" size="2" color=white>PROJETOS</font>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProjetos">
+            <a class="dropdown-item js-scroll-trigger" href="projetovlo1.html"><font face="ddin" size="2">FTB VLO-1</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="projetobocaina1.html"><font face="ddin" size="2">FTB Bocaina-1</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="projetotereshkova.html"><font face="ddin" size="2">FDTM Tereshkova-1</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="projetoscwb.html"><font face="ddin" size="2">CWB2020/F</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="projetogriphon.html"><font face="ddin" size="2">FS Griphon/F</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="propulsaohibrida.html"><font face="ddin" size="2">Propulsão Híbrida</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="propulsaoliquida.html"><font face="ddin" size="2">Propulsão Líquida</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="univapsat.html"><font face="ddin" size="2">UnivapSat</font></a>
+          </div>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#ensino"><font face="ddin" size="2">ENSINO</font></a>
-      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEnsino" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <font face="ddin" size="2" color=white>ENSINO E PESQUISA</font>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownEnsino">
+            <a class="dropdown-item js-scroll-trigger" href="biblioteca.html"><font face="ddin" size="2">Biblioteca</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="https://bravoaerospace.github.io/web/#agenda"><font face="ddin" size="2">Agenda</font></a>
+            <a class="dropdown-item js-scroll-trigger" href="dcp.html"><font face="ddin" size="2">BRAVEx</font></a>
+          </div>
+        </li>
 
-      <li class="nav-item">
-         <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#joinus"><font face="ddin" size="2">JOIN US</font></a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://bravoaerospace.github.io/web/#joinus"><font face="ddin" size="2">JOIN US</font></a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#noticias"><font face="ddin" size="2">NOTÍCIAS</font></a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://bravoaerospace.github.io/web/#partners"><font face="ddin" size="2">PARTNERS</font></a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#parceiros"><font face="ddin" size="2">PARCEIROS</font></a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://bravoaerospace.github.io/web/#apoie"><font face="ddin" size="2">APOIE</font></a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#apoie"><font face="ddin" size="2">APOIE</font></a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://bravoaerospace.github.io/web/#contato"><font face="ddin" size="2">CONTATO</font></a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://bravorocketteam.github.io/homepage/#contato"><font face="ddin" size="2">CONTATO</font></a>
-      </li>
 
-    </ul>
+         <!--INICIO DO TRADUTOR-->
+         <style type="text/css">
+          #google_translate_element {
+          display: none;
+          }
+          /*
+          .goog-te-banner-frame {
+          display: none !important;
+          }
+          body {
+          position: static !important;
+          top: 0 !important;
+          }
+          */
+          </style>
+          
+          <body>
+          <div id="google_translate_element" class="boxTradutor"></div>
+          <a href="javascript:trocarIdioma('en')"><img style="display: inline; margin: 5px; margin-top: 19px;" class="img-responsive" alt="fb image" width="20" height="auto" src="img/icones/uk.webp"></a>
+          <a href="javascript:trocarIdioma('es')"><img style="display: inline; margin: 5px; margin-top: 19px; margin-bottom: 22px;" class="img-responsive" alt="fb image" width="20" height="auto" src="img/icones/espanha.webp"></a>
+          </body>
+
+
+          <!-- O Javascript deve vir depois -->
+          <script type="text/javascript">
+          var comboGoogleTradutor = null; //Varialvel global
+
+          function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+          pageLanguage: 'pt',
+          includedLanguages: 'en,es',
+          layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+          }, 'google_translate_element');
+
+          comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+          }
+
+          function changeEvent(el) {
+          if (el.fireEvent) {
+          el.fireEvent('onchange');
+          } else {
+          var evObj = document.createEvent("HTMLEvents");
+
+          evObj.initEvent("change", false, true);
+          el.dispatchEvent(evObj);
+          }
+          }
+
+          function trocarIdioma(sigla) {
+          if (comboGoogleTradutor) {
+          comboGoogleTradutor.value = sigla;
+          changeEvent(comboGoogleTradutor);//Dispara a troca
+          }
+          }
+          </script>
+          <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!--FIM DO TRADUTOR-->
+
+
+      </ul>
+    </div>
   </div>
-  <!--fim dos itens de navegação-->
-
-
-</div>
 </nav>
 <!-- FIM DA BARRA DE NAVEGAÇÃO /// FIM DA BARRA DE NAVEGAÇÃO /// FIM DA BARRA DE NAVEGAÇÃO /// FIM DA BARRA DE NAVEGAÇÃO /// FIM DA BARRA DE NAVEGAÇÃO -->
 
@@ -363,7 +454,7 @@ new WOW().init();
 <footer class="footer">
   <div class="container">
     <div class="text-center">
-      <a class="js-scroll-trigger" href="#page-top"><img class="img-fluid" width="16x"src="img/icones/pageup.png"></a>
+      <a class="js-scroll-trigger hvr-float" href="#page-top"><img class="img-fluid" width="16x"src="img/icones/pageup.png"></a>
       </br>
       <span class="copyright"><font face="ddin" color="#0d0d0d">Feito con cariño y con amor  ♥ | Copyright &copy; BRAVO AEROSPACE 2020</font></span>
     </div>
