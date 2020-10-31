@@ -1,350 +1,199 @@
-<!--ELEMENTOS INICIAIS DO CÓDIGO - N Ã 0  M E X E R!-->
 <!DOCTYPE html>
-<html lang="pt" dir="ltr">
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Biblioteca | LJP</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
-<head>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/sidebar.css" rel="stylesheet" />
+        <link href="css/hover.css" rel="stylesheet">
+        <link href="css/bravohomepage.css" rel="stylesheet">
 
-  <!--miniatura de compartilhamento do link do site-->
-  <meta property="og:image" content="https://bravorocketteam.github.io/homepage/img/icones/social.png" />
+        
+    </head>
 
-  <!--descrição do site no compartilhamento do link-->
-  <meta property="og:description" content="Grupo de Desenvolvimento Aeroespacial da Univap" />
+    <body id="page-top">
 
-  <style>
-  div.a {text-align: center;}
-  </style>
-
-  <!--imagem do favicon-->
-  <link rel="shortcut icon" type="image/x-icon" href="./img/icones/faviconhome.webp">
-
-  <title>Bravo Aerospace Team</title>
-
-
-<!--############################
-#  Igual pra todas as páginas  #
-#############################-->
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap-template/css/bootstrap-template.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/bravohomepage.css" rel="stylesheet">
-  <link href="css/hover.css" rel="stylesheet">
-  <link href="css/biblioteca.css" rel="stylesheet">
-  
-
-  <!-- Animações -->
-  <script src="https://kit.fontawesome.com/82af426106.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> ESTAVA ATÉ 16/09, atualizou o jquery-->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> <!--animações de entrada wow parte1-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> <!--animações de entrada wow parte2-->
-<!--############################
-#  Igual pra todas as páginas  #
-#############################-->
-
-
-
-</head>
-
-<body id="page-top">
-
-<!--chamar animações-->
-<script>
-new WOW().init();
-</script>
-
-<!-- Preloader -->
-<div class="spinner-wrapper">
-  <div class="spinner">
-      <div class="bounce1"></div>
-      <div class="bounce2"></div>
-      <div class="bounce3"></div>
-      <div class="bounce4"></div>
-  </div>
-</div>
-
-
-
-<!--A Q U I   C O M  E  Ç  A   O   S I T E--><!--A Q U I   C O M  E  Ç  A   O   S I T E--><!--A Q U I   C O M  E  Ç  A   O   S I T E-->
-           
-<div class="wrapper d-flex align-items-stretch">
-  <nav id="sidebar">
-    <div class="p-4 pt-5">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/icones/home.webp" width="150px" style="margin-left: 48px; margin-bottom: 30px;" alt=""></a>
+        <!--chamar animações-->
+        <script>
+        new WOW().init();
+        </script>
+        
+        <!-- Preloader -->
+        <div class="spinner-wrapper">
+          <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+              <div class="bounce4"></div>
+          </div>
+        </div>
+    
       
-      <ul class="list-unstyled components mb-5">
+ 
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img class="meetdae" src="img/icones/home.webp"  width="190px" height="auto"  alt="GeeksforGeeks logo" align="left"> 
+            </a>
+            <br>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#aero"><font face="ddin" size="3">Aerodinâmica e Recuperação</font></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#propulsao"><font face="ddin" size="3">Combustão e Propulsão</font></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#eletronica"><font face="ddin" size="3">Eletrônica, Nano Satélites e Comunicações</font></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#secretaria"><font face="ddin" size="3">Secretaria</font></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#ops"><font face="ddin" size="3">Operações</font></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#artigos"><font face="ddin" size="3">Artigos, INIC e TG's</font></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger laranja alfa" align="left" href="#bravex"><font face="ddin" size="3">BRAVEx | FORMAEx</font></a></li>
+                   <br>
+                    <div align="center">
+                        <a href="javascript:history.back()"><img style="display: inline; margin: 2px;" class="img-responsive" alt="fb image" width="180" height="auto" src="img/icones/setavoltar.webp"></a>
+                      </div>
+                      <br>
+                      <br>
+                </ul>
+                
+            </div>
+            
+        </nav>
+
         
-        <li class="active">
-          <a href="#aero"><font face="ddin" size="4">&nbsp&nbsp&nbsp&nbspAerodinâmica</font></a>
-         </li>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
 
-         <li>
-          <a class="js-scroll-trigger" href="#rec"><font face="ddin" size="4">&nbsp&nbsp&nbsp&nbspRecuperação</font></a>
-         </li>
 
-        <li>
-            <a  href="#"><font face="ddin" size="4">&nbsp&nbsp&nbsp&nbspEstruturas</font></a>
-        </li>
+    <!-- Título -->
+    <section class="page-section" id="topo">
+    
+        <h1><font face="dinlight" size="7" color="#0e0e0e">BIBLIOTECA<font face="dinmedium">&nbsp| LJP</font></font></h1>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">LABORATÓRIO DE JATO PROPULSÃO<br>
+            FACULDADE DE ENGENHARIAS, ARQUITETURA E URBANISMO<br>
+            UNIVERSIDADE DO VALE DO PARAÍBA</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
+    
 
-        <li>
-          <a href="#"><font face="ddin" size="4">&nbsp&nbsp&nbsp&nbspEletrônica e Elétrica</font></a>
-        </li>
 
-        <li>
-          <a href="#"><font face="ddin" size="4">&nbsp&nbsp&nbsp&nbspCombustão e Propulsão</font></a>
-        </li>
+    <!-- Aerodinâmica e Recuperação-->
+    <section class="page-section" id="aero">
+    
+        <h5><font face="dinlight" size="5">AERODINÂMICA E RECUPERAÇÃO</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
 
-        <li>
-          <a href="#">&nbsp&nbsp&nbsp&nbspSecretaria</a>
-        </li>
 
-        <li>
-          <a href="#">&nbsp&nbsp&nbsp&nbspOperações</a>
-        </li>
-        
-         
-      </ul>
+    <!-- Combustão e Propulsão -->
+    <section class="page-section" id="propulsao">
+        <h5><font face="dinlight" size="5">COMBUSTÃO E PROPULSÃO</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
+   
 
-      <div class="footer">
-        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          <font face="ddin" size="2">
-          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </font>
-        </p>
-      </div>
+    <!-- Eletrônica -->
+    <section class="page-section" id="eletronica">
+    
+        <h5><font face="dinlight" size="5">ELETRÔNICA, NANOSATÉLITES E COMUNICAÇÕES</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
+    
+    <!-- Secretaria -->
+    <section class="page-section" id="secretaria">
+    
+        <h5><font face="dinlight" size="5">SECRETARIA</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
+
+    <!-- Operações -->
+    <section class="page-section" id="ops">
+    
+        <h5><font face="dinlight" size="5">OPERAÇÕES</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
+
+
+    <!-- Artigos -->
+    <section class="page-section" id="artigos">
+    
+        <h5><font face="dinlight" size="5">ARTIGOS | INIC | TRABALHOS DE GRADUAÇÃO E TESES</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
+
+
+    <!-- Exercícios Operacionais -->
+    <section class="page-section" id="bravex">
+    
+        <h5><font face="dinlight" size="5">EXERCÍCIOS OPERACIONAIS | BRAVEx e FORMAEx</font></h5>
+        <br>
+        <div class="subheading mb-5">
+            <font face="dinmedium" size="4">Laboratório de Jato Propulsão<br>
+            Faculdade de Engenharias, Arquitetura e Urbanismo<br>
+            Universidade do Vale do Paraíba</font>
+        </div>
+    
+    </section>
+    <hr class="m-0" />
 
     </div>
-  </nav>
-
-    <!-- Page Content  -->
-  <div id="content" class="p-4 p-md-5 bg-white">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-
-        <button type="button" id="sidebarCollapse" class="btn btn-dark">
-          <i class="fa fa-bars"></i>
-          <span class="sr-only">Toggle Menu</span>
-        </button>
-
-      <font face="ddin" size="5" color="black">Biblioteca Virtual<font face="ddinbold" size="5" color="black">&nbsp| LJP</font></font>
-             
-     </div>
-    </nav>
-
- <!-- Page Content -->
- <div id="aero">
-  <div class="container-fluid">
-      <div class="row">
-          <div id="introduction" class="col-lg-12">
-              <h1>Aerodinâmica</h1>
-              <p>Hello and thank you for using Evolo Startup HTML Landing Page Template. Evolo is an HTML landing page template built with Bootstrap featuring image slider, lightbox details, working request and contact form.</p>
-  <p>Built with Bootstrap 4, HTML5, CSS3, PHP and JavaScript it will help you achieve your online marketing goals in a beautiful and efficient manner.</p>
-  <p>Frameworks and toolkits used: Bootstrap 4, Popper, jQuery, jQuery Easing, Validator, Magnific Popup, Swiper.</p>
-  <p>You can edit the template's Html, Css, Php, Js files with your preferred text and code editor: <a href="https://notepad-plus-plus.org/">Notepad++</a>, <a href="https://code.visualstudio.com/">Visual Code</a>, <a href="https://www.sublimetext.com/">Sublime</a> or any other...</p>
-  <p>For image editing you can use <a href="http://www.adobe.com/products/photoshop.html">Adobe Photoshop</a> or any other graphic editor of your choice.</p>
-</div> <!-- end of introduction -->
-
-
-<div class="col-lg-12"><hr></div> <!-- gray separator line -->
-
-
-<div id="rec" class="col-lg-12">
-              <h1>Recuperação</h1>
-  <p>
-    <b>Documentation</b> - is the folder of this help file.
-    <br><b>Web</b> - contains the html, css, js and php files of the template.
-  </p>
-  <p><b>Web</b> folder includes <b>index.html</b> file which you will use to open the template. Besides index.html, you will also find the following folders:
-    <ul>
-      <li><b>Css</b> - Bootstrap, Font Awesome, Magnific Popup, Swiper and the template's custom stylesheet styles.css</li>
-      <li><b>Images</b> - Images used throughout the template including the favicon and logo</li>
-      <li><b>Js</b> - JavaScript files for Bootstrap, Popper, jQuery, jQuery Easing, Magnific Popup, Swiper, Validator, and Evolo's custom scripts: scripts.js</li>
-      <li><b>Php</b> - PHP script files for the contact forms</li>
-      <li><b>Webfonts</b> - Font Awesome files</li>
-    </ul>
-  </p>
-</div> <!-- end of files structure -->
-
-
-<div class="col-lg-12"><hr></div> <!-- gray separator line -->
-
-
-<div id="images" class="col-lg-12">
-  <h1>IMAGES</h1>
-  <p>You can find your own images while checking out the following free online sources:
-    <ul>
-      <li>Freepik: <a href="https://www.pexels.com/">https://www.freepik.com/home</a></li>
-      <li>Pexels: <a href="https://www.pexels.com/">https://www.pexels.com/</a></li>
-      <li>SplitShire: <a href="https://www.splitshire.com/">https://www.splitshire.com/</a></li>
-      <li>StartupStockPhotos: <a href="http://startupstockphotos.com/">http://startupstockphotos.com/</a></li>
-      <li>StockSnap: <a href="https://stocksnap.io/">https://stocksnap.io/</a></li>
-      <li>ISO Republic: <a href="http://isorepublic.com/">http://isorepublic.com/</a></li>
-      <li>Videezy: <a href="https://www.videezy.com/">https://www.videezy.com/</a> - for videos</li>
-    </ul>
-  </p>
-
-  <h3>Images sources</h3>
-  <p>Illustrations are from freepik and some require a Premium subscription which is about $90 but it's all worth it:
-    <ul>
-      <li>Header and other sections background: <a href="https://www.freepik.com/free-vector/teamwork-landing-page_3947104.htm">https://www.freepik.com/free-vector/teamwork-landing-page_3947104.htm</a></li>
-      <li>Services icons: <a href="https://www.freepik.com/premium-vector/simple-set-teamwork-related-vector-line-icons_3112092.htm">https://www.freepik.com/premium-vector/simple-set-teamwork-related-vector-line-icons_3112092.htm</a></li>
-      <li>Details 1 image: <a href="https://www.freepik.com/free-vector/workspace-design-landing-page_3103252.htm">https://www.freepik.com/free-vector/workspace-design-landing-page_3103252.htm</a></li>
-      <li>Details 2 image: <a href="https://www.freepik.com/free-vector/landing-page-template_3740431.htm">https://www.freepik.com/free-vector/landing-page-template_3740431.htm</a></li>
-      <li>Details lightbox: <a href="https://www.freepik.com/premium-vector/responsive-web-design-development-vector-flat-style_1279004.htm">https://www.freepik.com/premium-vector/responsive-web-design-development-vector-flat-style_1279004.htm</a></li>
-      <li>Video frame: <a href="https://www.freepik.com/free-vector/modern-productivity-concept-with-flat-design_3290586.htm">https://www.freepik.com/free-vector/modern-productivity-concept-with-flat-design_3290586.htm</a></li>
-      <li>Testimonials image: <a href="https://www.freepik.com/free-vector/scenes-office-collection_4085854.htm">https://www.freepik.com/free-vector/scenes-office-collection_4085854.htm</a></li>
-      <li>About team members: <a href="https://www.freepik.com/free-vector/people-avatars_761436.htm">https://www.freepik.com/free-vector/people-avatars_761436.htm</a></li>
-      <li>Contact background: <a href="https://www.freepik.com/free-vector/top-view-modern-office-desk_2787391.htm">https://www.freepik.com/free-vector/top-view-modern-office-desk_2787391.htm</a></li>
-    </ul>
-  </p>
-  
-  <h3>Changing The Logo</h3>
-  <p>
-    - Place your image file in the <b>images</b> folder
-    <br>- Open for editing <b>index.html</b>
-    <br>- Find <b>Navbar</b> section
-    <br>- Here find this line of code:
-<pre class="code-format">
-&lt;a class=&quot;navbar-brand logo-image&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;images/logo.svg&quot; alt=&quot;alternative&quot;&gt;&lt;/a&gt;
-</pre>							
-    <br>- And replace <span class="code">logo.svg</span> with your new file name
-    <br>- Save the file and refresh the browser window to see the changes
-  </p>
-  
-  <h3>Changing Header Background Image</h3>
-  <p>
-    - Edit and save the image file in the <b>images</b> folder
-    <br>- Open for editing <b>css/styles.css</b>
-    <br>- Find the <b>Header</b> section:
-    <br>- And at the <b>Min-width width 992px</b> find the background property of the <b>header</b> class:
-<pre class="code-format">
-.header {
-background: url('../images/header-background.jpg') center center no-repeat;
-background-size: cover; 
-}
-</pre>							
-    <br>- And replace <span class="code">header-background.jpg</span> with your own file name
-    <br>- Save the file and refresh the browser window to see the changes
-  </p>
-
-  <h3>Changing Regular Section Background Image</h3>
-  <p>
-    - Edit and save the image file in the <b>images</b> folder
-    <br>- Open for editing <b>css/styles.css</b>
-    <br>- Find the section you need for example <b>Testimonials</b> section
-    <br>- Here find the following lines:
-<pre class="code-format">
-.slider-2 {
-padding-top: 7.5rem;
-padding-bottom: 7rem;
-background: url('../images/testimonials-background.jpg') center center no-repeat;
-background-size: cover; 
-}
-</pre>							
-    <br>- And replace <span class="code">testimonials-background.jpg</span> with your own file name
-    <br>- For optimum results with the least amount of work I recommend using the same image size as the original in Preview
-    <br>- Save the file and refresh the browser window to see the changes
-  </p>
-</div> <!-- end of images -->
-
-
-<div class="col-lg-12"><hr></div> <!-- gray separator line -->
-
-
-<div id="icons" class="col-lg-12">
-              <h1>ICONS</h1>
-  <h3>Font Awesome Icons</h3>
-  <p>Evolo uses <a href="http://fontawesome.io/">Font Awesome</a> icon font in many sections and elements.
-  <p>To change one of the Font Awesome icons you can simply replace the classes that you'll find in index.html e.g. fa-phone, fa-envelope, fa-chrome with the ones that you need from <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a></p>
-
-  <h3>Social Media Icons</h3>
-  <p>To change social media icons in the Footer section of the template, you need to: 
-    <br>- Open <b>index.html</b> from the template folder
-    <br>- Find the section Social Media in the Footer:
-    <br>- And replace <span class="code">fa-facebook</span>, <span class="code">fa-twitter</span>, and so on... with the classes name that you need from <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a> in the Brand Icons section
-    <br>- Also don't forget to replace <span class="code">href="#your-link"</span> with the link to your social page or account
-  </p>
-
-  <h3>Social Media Tip</h3>
-  <p>If you want to control the way the posts look like when you share the landing page on social media (Facebook, Google+ and LinkedIn especially) don't forget to update the OG Meta Tags (OpenGraph) in the Head section of the <b>index.html</b> file.
-<pre class="code-format">
-&lt;meta property="og:site_name" content="" /&gt; &lt;!-- website name --&gt;
-&lt;meta property="og:site" content="" /&gt; &lt;!-- website link --&gt;
-&lt;meta property="og:title" content=""/&gt; &lt;!-- title shown in the actual shared post --&gt;
-&lt;meta property="og:description" content="" /&gt; &lt;!-- description shown in the actual shared post --&gt;
-&lt;meta property="og:image" content="" /&gt; &lt;!-- image link, make sure it's jpg --&gt;
-&lt;meta property="og:url" content="" /&gt; &lt;!-- where do you want your post to link to --&gt;
-&lt;meta property="og:type" content="article" /&gt;
-</pre>
-  <br>You can check out <a href="http://engageinteractive.co.uk/blog/an-introduction-to-using-facebooks-open-graph-protocol">this article</a> courtesy of Engage Interactive</p>
-          </div> <!-- end of icons -->
-
-
-<div class="col-lg-12"><hr></div> <!-- gray separator line -->
-
-
-<div id="forms" class="col-lg-12">
-              <h1>REQUEST, CONTACT & PRIVACY POLICY FORM</h1>
-              <p>To receive emails with data from your visitors simply change the line <span class="code">$EmailTo = "yourname@domain.com";</span> to your email address in the <b>php</b> folder in the following files:</p>
-  <ul>
-    <li>requestform-process.php</li>
-    <li>contactform-process.php</li>
-    <li>privacy-process.php</li>
-  </ul>
-  <p><b>Attention:</b>The script only runs online (on a liver server with PHP support) so the forms will not work while the landing page is offline on your hard-drive</p>
-  <p>If you want to change input fields names, you will need to update them accordingly in the following files:</p>
-  <ul>
-    <li><b>index.html</b>, <b>scripts.js</b> and the php file from the <b>php</b> folder.</li>
-  </ul>
-
-  <h3>Setup A Redirect Page On Form Submit</h3>
-  <p>
-    To setup a redirect to a thank you page on form submit, you need to: 
-    <br>- Open <b>js/scripts.js</b> inside the template folder
-    <br>- Find the following block of code in the form section 
-<pre class="code-format">
-function cformSuccess() {
-$("#ContactForm")[0].reset();
-csubmitMSG(true, "Message Submitted!")
-}
-</pre>
-    <br>- And change it to:
-<pre class="code-format">
-function cformSuccess() {
-$("#ContactForm")[0].reset();
-window.location.href = "https://yourlinkhere.com";
-}
-</pre>
-    <br>- And replace inside the quotes <span class="code">https://yourlinkhere.com</span> with your link
-  </p>
-</div> <!-- end of contact form and privacy policy form -->
-  
-
-<div class="col-lg-12"><hr></div> <!-- gray separator line -->
-
-
-<div id="support" class="col-lg-12">
-  <h1>SUPPORT</h1>
-  <p>Because of limited resources at this point I am not able to provide support for free items but don't hesitate to send your questions at <a href="mailto:lucian@inovatik.com">lucian@inovatik.com</a> and I will try to help and at least point you in the right direction.</p>
-</div> <!-- end of support -->
-          
-<div class="col-lg-12">
-  <p class="footer">Evolo - StartUp HTML Landing Page Template by <a href="https://inovatik.com">Inovatik</a></p>
-</div>
-      </div>
-  </div>
-</div> <!-- end of page content wrapper -->
-</div> <!-- end of wrapper -->
 
 
 
@@ -363,17 +212,21 @@ window.location.href = "https://yourlinkhere.com";
 
   <!-- Custom scripts for this template -->
   <script src="js/transparencia-do-navbar.js"></script> <!--responsável pela transparência do navbar-->
-  <script src="js/preloader.js"></script> <!-- preloader -->
-
-  <!-- Custom scripts for the biblioteca -->
   
-  <script src="js/main.js"></script>
+   <!-- Custom scripts exclusivos da biblioteca/sidebar -->
+  
+                <!-- Bootstrap core JS-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+                <!-- Third party plugin JS-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+                <!-- Core theme JS-->
+                <script src="js/sidebar.js"></script>
+                <script src="js/preloader.js"></script> <!-- preloader -->
 
 <!--############################
 #  Igual pra todas as páginas  #
 #############################-->
- 
-
-
-</body>
+       
+    </body>
 </html>
