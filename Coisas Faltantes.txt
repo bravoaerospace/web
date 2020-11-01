@@ -1,5 +1,1 @@
-1) O Head do Index da Home deve ser igual ao das paginas, verificar os scripts indexados de java e bootstrap
-
-2) O menu do index deve ser finalizado, para depois copiar e colar para as paginas.
-
-3) as imagens devem ser atualizadas.
+1) 
