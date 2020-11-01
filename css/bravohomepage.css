@@ -1,6 +1,13 @@
 
 /************************************ SÓ TEM NA HOME *************************************/
 
+h1 {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 0.9 !important;
+}
+
 .nanosat{
   background-image: url("../img/backgrounds/nanosat.png");
   background-repeat: no-repeat;
